@@ -46,11 +46,15 @@
     ],
     "modernBehavior": false
   },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "65fd3a97-294f-4714-b986-89f2de6ff7ac",
+      "filePath": "Test Cases\\TestCase A.xaml",
+      "uniqueId": "d185edc5-6119-46b1-934e-75229d4e08c2",
       "input": [],
       "output": []
     }
