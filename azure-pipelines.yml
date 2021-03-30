@@ -20,9 +20,9 @@ steps:
 
 - task: UiPathTest@2
   inputs:
-    testTarget: 'UAT Regression Tests'
+    testTarget: TestSet
     orchestratorConnection: 'Orch Conn'
-    testSet: 'FrankieCICDRegressionTests'
+    testSet: 'UAT Regression Tests'
     folderName: 'Frankie_Classic'
 
 - script: echo UiPath CI/CD steps done!
