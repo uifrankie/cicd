@@ -29,8 +29,6 @@ steps:
   inputs:
     orchestratorConnection: 'Orch Conn'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'Frankie_Classic'
-    environments: 'Development Environment'
 
 - script: echo UiPath CI/CD steps done!
   displayName: 'Run a one-line script'
