@@ -29,7 +29,7 @@ steps:
   inputs:
     orchestratorConnection: 'Orch Conn'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'X'
+    folderName: 'Frankie_Classic'
     environments: 'Y'
 
 - script: echo UiPath CI/CD steps done!
