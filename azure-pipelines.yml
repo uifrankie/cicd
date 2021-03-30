@@ -22,9 +22,8 @@ steps:
   inputs:
     testTarget: 'TestSet'
     orchestratorConnection: 'Orch Conn'
-    testSet: 'UAT Regression Tests'
+    testSet: 'FrankieCICDRegressionTests'
     folderName: 'Frankie_Classic'
-    environment: 'Development Environment'
 
 - script: echo UiPath CI/CD steps done!
   displayName: 'Run a one-line script'
