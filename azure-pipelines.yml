@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- uat
 
 pool:
   vmImage: 'windows-latest'
@@ -20,7 +20,7 @@ steps:
 
 - task: UiPathTest@2
   inputs:
-    testTarget: 'TestSet'
+    testTarget: 'UAT Regression Tests'
     orchestratorConnection: 'Orch Conn'
     testSet: 'FrankieCICDRegressionTests'
     folderName: 'Frankie_Classic'
