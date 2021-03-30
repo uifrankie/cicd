@@ -18,7 +18,14 @@ steps:
     orchestratorConnection: 'Orch Conn'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 
-- script: echo Hello, world!
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: 'Orch Conn'
+    testSet: 'FrankieCICDRegressionTests'
+    folderName: 'Frankie_Classic'
+
+- script: echo UiPath CI/CD steps done!
   displayName: 'Run a one-line script'
 
 - script: |
