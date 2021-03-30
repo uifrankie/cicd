@@ -5,14 +5,19 @@
 
 trigger:
 - master
+
+pool:
+  vmImage: 'windows-latest'
+
+    
+steps:
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)'
+    orchestratorConnection: 'Orch Conn'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-pool:
-  vmImage: ubuntu-latest
 
-steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
