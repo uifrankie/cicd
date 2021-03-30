@@ -29,6 +29,8 @@ steps:
   inputs:
     orchestratorConnection: 'Orch Conn'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'X'
+    environments: 'Y'
 
 - script: echo UiPath CI/CD steps done!
   displayName: 'Run a one-line script'
