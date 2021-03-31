@@ -102,7 +102,7 @@
           <InArgument x:TypeArguments="x:String">[FirstBanker]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">["XXX THE UIBANK OF BUCHAREST"]</InArgument>
+          <InArgument x:TypeArguments="x:String">["THE UIBANK OF BUCHAREST"]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
     </Sequence>
