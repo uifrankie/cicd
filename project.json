@@ -43,6 +43,12 @@
         "editingStatus": "Publishable",
         "testCaseId": "4636e783-8cfa-455a-a95e-44a8ecb476e8",
         "fileName": "Test Cases\\TestCase_Banker.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "35a5a4e8-100f-47b3-8752-85a7f4a05df0",
+        "dataVariationFilePath": ".variations\\TestData_Banker_TestData_Banker.json",
+        "fileName": "TestCases\\TestCase_Banker.xaml"
       }
     ],
     "modernBehavior": false
