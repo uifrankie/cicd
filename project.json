@@ -44,8 +44,13 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "35a5a4e8-100f-47b3-8752-9999f4a05df0",
-        "dataVariationFilePath": ".variations\\TestData_Banker_TestData_Banker.json",
-        "fileName": "TestCases\\TestGetBanker.xaml"
+        "dataVariationFilePath": ".variations\\TestData_Banker - Total Coverage_TestData_Banker.json",
+        "fileName": "LetterProcessing\\TestCases\\TestGetBanker.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7ebd5762-bf43-4571-b0b1-3120420b2b59",
+        "fileName": "Reporting\\TestCases\\TestWriteReport.xaml"
       }
     ],
     "modernBehavior": false
