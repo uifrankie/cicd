@@ -1,3 +1,11 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {
+    "35a5a4e8-100f-47b3-8752-9999f4a05df0": "c3009b38-8c2f-4145-b27a-08d8f8cf8cbd"
+  },
+  "testManagerBasePath": "https://tm-demo.uipath.com/",
+  "defaultProject": {
+    "id": "b59d35fa-de0e-4d13-8840-08d8e7c1bc85",
+    "name": "Test - Frankie",
+    "key": "TMFL"
+  }
 }
