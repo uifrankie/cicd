@@ -1,10 +1,12 @@
 {
   "name": "DemoCICD_Frankie",
   "description": "Process for testing CI/CD",
-  "main": "WordProcessing\\GetFirstBanker.xaml",
+  "main": "LetterProcessing\\GetFirstBanker.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.OmniPage.Activities": "[1.7.1]",
+    "UiPath.PDF.Activities": "[3.4.0]",
     "UiPath.System.Activities": "[20.10.3]",
     "UiPath.Testing.Activities": "[1.2.5]",
     "UiPath.UIAutomation.Activities": "[20.10.8]",
@@ -51,8 +53,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "WordProcessing\\GetFirstBanker.xaml",
-      "uniqueId": "b0250279-0e6d-4d60-bca4-851fa26cb289",
+      "filePath": "LetterProcessing\\GetFirstBanker.xaml",
+      "uniqueId": "057bd158-7a7d-4c11-83bf-c117018d5de5",
       "input": [],
       "output": []
     }

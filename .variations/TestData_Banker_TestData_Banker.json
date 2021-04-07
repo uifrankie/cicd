@@ -1,1 +1,1 @@
-[{"WordFilePath":"TestCases\\Letter_Banker.docx","ExpectedOutput":"THE UIBANK OF BUCHAREST"},{"WordFilePath":"TestCases\\Letter_BankName.docx","ExpectedOutput":"THE BANK OF RPA TECH"},{"WordFilePath":"TestCases\\Letter_BankNameUppercased.docx","ExpectedOutput":"THE HIGHER BANK OF UILAND"}]
+[{"FilePath":"TestCases\\Letter_Banker.docx","ExpectedOutput":"THE UIBANK OF BUCHAREST"},{"FilePath":"TestCases\\Letter_BankName.docx","ExpectedOutput":"THE BANK OF RPA TECH"},{"FilePath":"TestCases\\Letter_BankNameUppercased.docx","ExpectedOutput":"THE HIGHER BANK OF UILAND"}]
