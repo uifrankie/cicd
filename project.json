@@ -1,7 +1,7 @@
 {
-  "name": "FrankieCICD_2",
+  "name": "DemoCICD_Frankie",
   "description": "Process for testing CI/CD",
-  "main": "GetFirstBanker.xaml",
+  "main": "WordProcessing\\GetFirstBanker.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.Mail.Activities": "[1.9.5]",
@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.4.0",
-  "projectVersion": "1.3.3",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -41,12 +41,12 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "4636e783-8cfa-455a-a95e-44a8ecb476e8",
+        "testCaseId": "4636e783-8cfa-455a-a95e-9999ecb476e8",
         "fileName": "Test Cases\\TestCase_Banker.xaml"
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "35a5a4e8-100f-47b3-8752-85a7f4a05df0",
+        "testCaseId": "35a5a4e8-100f-47b3-8752-9999f4a05df0",
         "dataVariationFilePath": ".variations\\TestData_Banker_TestData_Banker.json",
         "fileName": "TestCases\\TestCase_Banker.xaml"
       }
@@ -54,6 +54,14 @@
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "WordProcessing\\GetFirstBanker.xaml",
+      "uniqueId": "b0250279-0e6d-4d60-bca4-851fa26cb289",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {}
