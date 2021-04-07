@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>994,780</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>922,780</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
@@ -102,7 +102,7 @@
         <OutArgument x:TypeArguments="x:String">[out_FirstBanker]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(WordText, "(?:Banker|Bank Name)\s*:\s*([^\r]*)").Groups(1).ToString]</InArgument>
+        <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(WordText, "(?:Banker|Bank Name)\s*:\s*([^\r]*)", RegexOptions.IgnoreCase).Groups(1).ToString]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[out_FirstBanker]" />
